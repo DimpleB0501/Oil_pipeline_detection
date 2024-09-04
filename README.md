@@ -1,1 +1,0 @@
-# Oil_pipeline_detection
