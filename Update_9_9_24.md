@@ -9,5 +9,5 @@
 [Github-integration_jetson_nano](https://github.com/micasense/rededge-api)
 
 ### NOTES
-[SWIR](https://www.edmundoptics.in/knowledge-center/application-notes/imaging/what-is-swir) - displays the images showing the difference between normal RGB and SWIR based images.
+[SWIR](https://www.edmundoptics.in/knowledge-center/application-notes/imaging/what-is-swir/) - displays the images showing the difference between normal RGB and SWIR based images.
 
