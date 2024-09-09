@@ -1,6 +1,9 @@
 # Oil_pipeline_detection
 ![images](./images/Oil_pipeline_project.PNG)
 
+# Code
+[Jupyter notebook](https://github.com/DimpleB0501/Oil_pipeline_detection/blob/main/Alignment.ipynb) displaying parts of the workflow.
+
 ### Oil indexes paper
 [Novel oil spill indices for sentinel-2 imagery: A case study of natural seepage in Qaruh Island, Kuwait](https://www.sciencedirect.com/science/article/pii/S2215016123005162)
 
