@@ -1,8 +1,19 @@
 # Installation
-Installation [videos](https://www.youtube.com/watch?v=wlkoq65mM2A&list=PLy9nLDKxDN683GqAiJ4IVLquYBod_2oA6&index=2), <br/>
-[github page](https://github.com/Intelligent-Quads) for the project.
+### Installation for SITL Implementation
+* Install Ardupilot and MAVProxy using these [instructions](https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/Installing_Ardupilot_20_04.md).
+* Install QGroundControl using these [instructions](https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/installing_qgc.md).
+* Install ROS  in the system and MAVROS in the catkin_ws using these [instructions](https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/installing_ros_20_04.md).
+* Clone the IQ_GNC Package in the catkin_ws using the following command
+  ```
+  git clone https://github.com/Intelligent-Quads/iq_gnc.git
+  ```
+* Replace the ***iq_gnc*** and ***iq_sim*** folders with the folders having the same name in the ***Packages/*** folder of the repository.
+* Finally build the workspace by executing the `catkin_make` command in the catkin_ws folder.
 
-Pages:
-- Installing [ardupilot and mavproxy](https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/Installing_Ardupilot.md)
-- Installing [qgc](https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/installing_qgc.md)
-- Installing [gazebo and ardupilot](https://github.com/Intelligent-Quads/iq_tutorials/blob/master/docs/installing_gazebo_arduplugin.md)
+### Install mavros
+    ```
+    sudo apt-get install ros-noetic-mavros ros-noetic-mavros-extras
+    wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
+    chmod a+x install_geographiclib_datasets.sh
+    ./install_geographiclib_datasets.sh
+    ```
