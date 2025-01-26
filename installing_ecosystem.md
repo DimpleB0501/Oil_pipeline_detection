@@ -17,3 +17,22 @@
     chmod a+x install_geographiclib_datasets.sh
     ./install_geographiclib_datasets.sh
     ```
+
+# Running simulations in SITL
+* For launching runway.world, run
+  ```
+  roslaunch iq_sim runway.launch
+  ```
+* Launch the ardupilot instance by running
+  ```
+  cd ~/ardupilot/ArduCopter/ && sim_vehicle.py -v ArduCopter -f gazebo-iris --console
+  ```
+* Launch the connection to QGround control using the following command in different tab
+  ```
+  roslaunch iq_sim apm.launch
+  ```
+* Run the QGroundControl
+* Run the drone_sense_avoid file using the command
+  ```
+  rosrun iq_sim drone_sense_avoid.py
+  ```
